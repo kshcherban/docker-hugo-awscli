@@ -4,7 +4,7 @@ ENV AWSCLI_VERSION 1.15.26
 ENV HUGO_VERSION 0.40.3
 
 # Install python with pip
-RUN apk add --no-cache --update py2-pip
+RUN apk add --no-cache --update py2-pip git
 
 # Install awscli
 RUN pip install awscli==${AWSCLI_VERSION}
