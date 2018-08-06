@@ -4,6 +4,6 @@
 
 Based on official [alpine](https://hub.docker.com/\_/alpine/) 3.7 docker image.
 
-Hugo version: 0.40.3  
+Hugo version: 0.46  
 AWSCLI version: 1.15.26  
 Python: 2.7.14  

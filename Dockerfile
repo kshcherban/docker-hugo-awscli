@@ -1,7 +1,7 @@
 FROM alpine:3.7
 
 ENV AWSCLI_VERSION 1.15.26
-ENV HUGO_VERSION 0.40.3
+ENV HUGO_VERSION 0.46
 
 # Install python with pip
 RUN apk add --no-cache --update py2-pip git
